@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style/base.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/account.css">
+    <link rel="stylesheet" href="./style/media-queries.css">
+    <title>Sign-Up</title>
+</head>
+<body>
+    
+    <nav id="navbar" class="navbar">
+        <div class="container">
+
+            <div class="logo">
+                <a href="./index.html" class="fs-21px">
+                    Best<span class="text-main">Recipes</span>
+                </a>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li><a href="./index.html" class="active">Home</a></li>
+                    <li><a href="./recipes.html">Recipes</a></li>
+                </ul>
+            </div>
+
+            <div class="sign-up">
+                <a href="./sign-up.html" class="btn btn-primary">Sign Up</a>
+                <a href="./login.html" class="btn btn-primary">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="login recepes-margin">
+        <div class="container">
+            <h2 class="fs-35px text-center">Login</h2>
+            <form class="login-form">
+                
+                <div class="account-details">
+                    <label for="email-or-number">Email or Phone Number</label>
+                    <input type="email" id="email-or-number" placeholder="Enter Your Email or Phone Number" required>
+
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter Your Password" required>
+                </div>
+
+                <div class="login-signup-links">
+                    <h2>Don't have an account? <a href="./sign-up.html">Create an account now.</a></h2>
+                </div>
+
+                <div class="form-buttons">
+                    <button type="submit" class="btn btn-primary">Login</button>
+                    <button type="reset" class="btn btn-primary">Reset</button>
+                </div>
+
+            </form>
+        </div>
+    </main>
+
+
+    <footer class="footer">
+
+        <div class="container">
+            <div class="row">
+                <div class="footer-col list">
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">All Recipes</a></li>
+                        <li><a href="#">Sign Up</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col email">
+                    <input type="email" id="email" placeholder="example@gmail.com">
+                    <label for="email"><a href="#">Send</a></label>
+                </div>
+                <div class="footer-col links">
+                    <a href="https://twitter.com/Nrxlas" target="_blank"><i class="fa-brands fa-x-twitter fa-2x"></i></a>
+                    <a href="https://www.instagram.com/mrt_mrngz/?next=%2F" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

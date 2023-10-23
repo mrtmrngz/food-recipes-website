@@ -1,0 +1,351 @@
+/* !NAVBAR START */
+
+.navbar {
+    background-color: #fff;
+    width: 100%;
+    min-height: 85px;
+    height: 85px;
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.75);
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.logo a {
+    color: var(--dark);
+}
+
+.logo a span {
+    color: var(--main-color);
+}
+
+.nav-list ul {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-list ul li a {
+    font-size: 18px;
+    color: var(--dark);
+    transition: all .5s;
+}
+
+.nav-list ul li a:hover {
+    color: var(--secondary);
+}
+
+.active {
+    color: var(--main-color) !important;
+}
+
+.navbar .sign-up {
+    display: flex;
+    gap: 30px;
+} 
+
+/* ? NAVBAR END */
+
+/* ! HEADER START */
+
+.main-header {
+    min-height: 87vh;
+    width: 100vw;
+    background:linear-gradient(to bottom, rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.5)), 
+    url(../img/bg-header.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-header .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  
+    gap: 10px;
+    width: 100%;
+}
+
+.main-header .left-col {
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-header .left-col h1 {
+    margin: 40px 0;
+}
+
+.main-header .right-col img {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+} 
+
+.main-header .right-col .img {
+    animation: main-animation 10s ease-in-out infinite;
+}
+
+@keyframes main-animation {
+    0%, 100% {
+        transform: rotate(180deg);
+    }
+
+    50% {
+        transform: rotate(90deg);
+    }
+}    
+
+/* ? HEADER END */
+
+/* ! MAİN-SECTİON START */
+
+.recipes {
+    margin: 4rem 0;
+}
+
+.recipes .row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.recipes .row .card  {
+    background: var(--grey);
+}
+
+.recipes .card {
+    border-radius: 12px;
+}
+
+
+.recipes .card .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 45px;
+}
+
+.recipes .card-body .card-header {
+    margin-bottom: 22px;
+}
+
+.recipes .card img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+
+.recipes .container .row .card .card-header {
+    color: #fff;
+}
+
+.recipes-pages-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.recipes-pages-button a {
+    width: 25%;
+}
+
+
+/* ? MAİN-SECTİON END */
+
+/* ! FOOTER START */
+
+.footer {
+    background: var(--dark);
+    height: 200px;
+    width: 100%;
+    /* padding: 20px 0; */
+}
+
+.footer .container {
+    width: 100%;
+    height: 100%;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.footer .row .footer-col.list ul {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.footer .row .footer-col.list ul li a {
+    color: #fff;
+    font-size: 17px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+}
+
+.footer .row .footer-col.list ul li a:hover {
+    color: var(--main-color);
+    border-bottom: 1px solid var(--main-color);
+}
+
+.footer .row .footer-col.email input {
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    border-radius: 12px;
+}
+
+.footer .row .footer-col.email label {
+    background-color: var(--secondary);
+    padding: 8px 12px;
+    border-radius: 12px;
+    transition: all .5s;
+}
+
+.footer .row .footer-col.email label:hover {
+    background-color: var(--main-color);
+}
+
+.footer .row .footer-col.email label a {
+    color: #fff;
+}
+
+.footer .row .footer-col.links  {
+    display: flex;
+    gap: 15px;
+}
+
+.footer .row .footer-col.links a {
+    color: #fff;
+    background-color: var(--main-color);
+    padding: 15px;
+    border-radius: 50%;
+    transition: all .5s ease-in-out;
+}
+
+.footer .row .footer-col.links a:hover {
+    background-color: var(--secondary);
+}
+
+/* ? FOOTER END */
+
+/*! RECİPES PAGES START */
+
+.recipes .container-fluid .row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.recipes .row .card  {
+    background: var(--grey);
+}   
+
+
+.recipes .card .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 29px;
+}
+
+.recipes .card .card-body .card-header {
+    margin-bottom: 22px;
+}
+
+.recipes .card img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+
+.recipes .card .card-header {
+    color: #fff;
+}
+
+/*? RECİPES PAGES END */
+
+/*! FOOD DİRECTİVE START */
+
+.food-recepes {
+    margin-top: 8.5rem;
+}
+
+.food-recepes .food-image {
+    height: 450px;
+    width: 100%;
+}   
+
+.food-recepes .food-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.food-recepes .section-list {
+    margin-top: 5rem;    
+    background-color: var(--main-color);
+    padding: 35px 55px;
+    border-radius: 12px;
+}
+
+.food-recepes .section-list ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.food-recepes .section-list ul li {
+    font-size: 30px;
+}
+
+.food-recepes .section-list ul li a {
+    color: var(--blue);
+}
+
+.food-recepes .section-list ul li a:hover {
+    color: var(--secondary);
+}
+
+.food-recepes .description h2 {
+    margin-bottom: 2rem;
+    color: var(--grey);
+}
+
+.food-recepes .ingredients h2 {
+    color: var(--grey);
+    margin-bottom: 2rem;
+}
+
+.food-recepes .ingredients ul {
+    list-style: disc !important;
+    color: var(--dark);
+    font-size: 19px;
+    line-height: 2;
+}
+
+.food-recepes .directive h2 {
+    color: var(--grey);
+    margin-bottom: 2rem;
+}
+
+
+/*? FOOD DİRECTİVE END */

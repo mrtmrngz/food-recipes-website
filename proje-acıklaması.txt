@@ -1,0 +1,1 @@
+Anasayfa, tarifler, 4 tane yemek tarifi sayfası, giriş yap ve kayıt ol ile birlikte 8 adet sayfa var.
