@@ -9,5 +9,4 @@ Hello everyone, there is the food recipes page.Project has 4 section. <br>
 <!-- -------------------------- -->
 
 # Demo
-
-<a href="https://google.com"></a>
+https://foodrecipes-project.netlify.app/
