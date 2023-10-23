@@ -1,6 +1,6 @@
 # FOOD RECIPES WEBSITE PROJECT
 
-Hello everyone, there is the food recipes page.Project has 4 section.
+Hello everyone, there is the food recipes page.Project has 4 section. <br>
 1-Home Page
 2-Food Recipes Page
 3-A separate page for each recipe
